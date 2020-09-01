@@ -1,0 +1,27 @@
+.card {
+  text-align: flex-start;
+  margin: 3%;
+  padding:2%;
+  max-width: 40rem;
+  background-color: black;
+}
+
+.image{
+  max-height:30vh;
+}
+
+
+.card-info {
+  
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  color: purple;
+}
+
+.profile-link {
+  color: #61dafb;
+}
+
