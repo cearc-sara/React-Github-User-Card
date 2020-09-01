@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios'
+import Followers from './Followers'
 import './App.css';
 import {Card, Avatar, CardHeader} from '@material-ui/core'
 
@@ -52,7 +53,9 @@ class App extends React.Component {
         <p>Following: {this.state.following}</p>
         <p>Bio: {this.state.bio}</p>
       </div>
+      <Followers/>
   </Card>
+ 
   )
   }
 }
