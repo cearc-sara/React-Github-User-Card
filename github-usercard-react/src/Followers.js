@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-import { Card, Avatar, CardHeader } from '@material-ui/core'
+import { Card } from '@material-ui/core'
 
 class Followers extends React.Component {
     constructor() {
