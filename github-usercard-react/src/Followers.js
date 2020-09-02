@@ -33,7 +33,7 @@ class Followers extends React.Component {
                         <Card variant='outlined' className='follower-card'>
                             <h3>{follower.name}</h3>
                             <img src={follower.avatar_url} alt='follower pic' className='image'/>
-                            <div>
+                            <div className='card-info'>
                             <p className='username'>{follower.login}</p>
                             <p>Profile: 
                                 <a href={follower.url} className='profile-link'> {follower.url}</a></p>

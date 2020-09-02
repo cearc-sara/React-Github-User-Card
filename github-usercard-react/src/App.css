@@ -5,7 +5,9 @@
   max-width: 40rem;
   background-color: black;
 }
-
+.follower-card{
+  margin:3%;
+}
 .image{
   max-height:30vh;
 }
